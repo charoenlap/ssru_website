@@ -1,0 +1,271 @@
+@media (max-width: 575.98px) { 
+	/* navbar */
+	.nav-custom {
+		display: none;
+	}
+	.bg-topnav {
+		display: none;
+	}
+	.dropdown-menu {
+		border: none;
+	}
+
+
+	/* banner */
+	.height-banner {
+		height: auto !important;
+	}
+
+	/* content */
+	.bg-overflow {
+		display: none;
+	}
+	.bg-gray {
+		padding-top: 20px !important;
+	}
+	.nav-pills .tab-two.active {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.tab-two {
+		padding: 0.6rem 1rem;
+	}
+	#main-post {
+		background: #f26422;
+		padding: 10px 0;
+	}
+	.nav.flex-column.nav-pills.mt-5 {
+		margin-top: 10px !important;
+	}
+	.btn-mobile {
+		white-space: unset;
+	}
+	.padding-all {
+		padding: 1rem;
+	}
+	.height-520 {
+		height: auto !important;
+	}
+	.w-mobile {
+		width: 100%;
+	}
+	.tab-three {
+		width: 100% !important;
+		margin-bottom: 0 !important;
+	}
+	.active.tab-three:before {
+		display: none;
+	}
+	.tab-four {
+		width: 100% !important;
+		margin-bottom: 0 !important;
+	}
+	.active.tab-four:before {
+		display: none;
+	}
+	.right-cal {
+		right: 15 !important;
+	}
+	.right-event {
+		right: 0 !important;
+		top: 0 !important;
+	}
+	body {
+		margin-top: 125px !important;
+	}
+	.h-content-tab {
+		padding-bottom: 3rem !important;
+	}
+	.flip-box {
+		height: 280px !important;
+	}
+	.height470 {
+		height: auto !important;
+	}
+	.h150 {
+		height: 200px !important;
+	}
+	.height-flip-box {
+		height: auto !important;
+	}
+	.bg-timelines:before {
+		display: none !important;
+	}
+	.enter-website {
+		bottom: 2% !important;
+		position: fixed !important;
+	}
+	#main {
+		position: relative !important;
+	}
+	.bg-gradient-timeline {
+		height: 100%;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important;
+	}
+	.tl-mobile {
+		margin-bottom: 30px;
+	}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/* navbar */
+	.nav-custom {
+		display: none;
+	}
+	.bg-topnav {
+		display: none;
+	}
+	.dropdown-menu {
+		border: none;
+	}
+
+
+	/* banner */
+	.height-banner {
+		height: auto !important;
+	}
+
+	/* content */
+	.bg-overflow {
+		display: none;
+	}
+	.bg-gray {
+		padding-top: 20px !important;
+	}
+	.nav-pills .tab-two.active {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.tab-two {
+		padding: 0.6rem 1rem;
+	}
+	#main-post {
+		background: #f26422;
+		padding: 10px 0;
+	}
+	.nav.flex-column.nav-pills.mt-5 {
+		margin-top: 10px !important;
+	}
+	.btn-mobile {
+		white-space: unset;
+	}
+	.padding-all {
+		padding: 1rem;
+	}
+	.height-520 {
+		height: auto !important;
+	}
+	.w-mobile {
+		width: 100%;
+	}
+	.tab-three {
+		width: 100% !important;
+		margin-bottom: 0 !important;
+	}
+	.active.tab-three:before {
+		display: none;
+	}
+	.tab-four {
+		width: 100% !important;
+		margin-bottom: 0 !important;
+	}
+	.active.tab-four:before {
+		display: none;
+	}
+	.right-cal {
+		right: 15 !important;
+	}
+	.right-event {
+		right: 0 !important;
+		top: 0 !important;
+	}
+	body {
+		margin-top: 125px !important;
+	}
+	.h-content-tab {
+		padding-bottom: 3rem !important;
+	}
+	.flip-box {
+		height: 280px !important;
+	}
+	.height470 {
+		height: auto !important;
+	}
+	.h150 {
+		height: 200px !important;
+	}
+	.height-flip-box {
+		height: auto !important;
+	}
+	.bg-timelines:before {
+		display: none !important;
+	}
+	.enter-website {
+		bottom: 2% !important;
+		position: fixed !important;
+	}
+	#main {
+		position: relative !important;
+	}
+	.bg-gradient-timeline {
+		height: 100%;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important;
+	}
+	.tl-mobile {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/* navbar */
+	#menu-mobile {
+		display: none;
+	}
+	.h-content-tab {
+		padding-bottom: 3rem !important;
+	}
+	.fixed-height-banner {
+		height: 600px;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/* navbar */
+	#menu-mobile {
+		display: none;
+	}
+	.h-content-tab {
+		padding-bottom: 3rem !important;
+	}
+	.fixed-height-banner {
+		height: 600px;
+	}
+}
+
+
+@media (min-width: 1200px) { 
+	/* navbar */
+	#menu-mobile {
+		display: none;
+	}
+	.fixed-height-banner {
+		height: 788px;
+	}
+}
+
+
+@media (min-width: 2200px) {
+	.container {
+		max-width: 2000px;
+	}
+}
+@media (min-width: 2500px) {
+	.container {
+		max-width: 2000px;
+	}
+}

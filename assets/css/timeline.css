@@ -1,0 +1,108 @@
+.timelines {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.timelines::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+
+}
+.tl {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+}
+.tl::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color: #1d85c8;
+    border: 2px solid #fff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.left {
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    animation-duration: 0.25s;
+    /*animation-delay: 0.1s;*/
+    animation-name: bounceIn;
+}
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-name: bounceIn;
+}
+.right::after {
+    left: -14px;
+}
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    animation-duration: 1s;
+    /*animation-delay: 0.1s;*/
+    animation-name: bounceIn;
+}
+
+@media screen and (max-width: 600px) {
+  .timelines::after {
+    left: 31px;
+  }
+  
+  .tl {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .tl::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+}

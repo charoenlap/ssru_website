@@ -1,0 +1,24 @@
+public function manage_category($act,$fid,$seq=0,$cat=NULL,$table=NULL,$real=NULL){
+	global $obj_db;
+	if($act=="del"){
+		$this->set_del_all_cat($fid);
+		if($table!=""){
+			if($real=="true"){
+				mysql_query("delete $table where id =$fid ");
+			}else{
+				mysql_query("update $table set del = 1 where id =$fid ");
+			}
+		}else{
+			mysql_query("update $this->table_sub set del = 1 where cat =$fid ");
+		}
+		return true;
+	}
+} // end function
+
+how to use 
+$page = 'cp-comment.php';
+$table = 's_comment';
+if($act!=""){ 
+	if($obj_pro->manage_category($act,$fid,$seq,NULL,$table,false)){header("Location: $page$para");}
+	}
+}

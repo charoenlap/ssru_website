@@ -1,0 +1,21 @@
+.tabs {
+	list-style: none;
+}
+.tabs li{
+	float:left;
+}
+div.tab_container div.tab_content {
+	display:none;
+}
+div.tab_container div.tab_content.active {
+	display:block;
+}
+#page-wrapper {
+    min-height: 600px;
+}
+.dropdown b.caret{
+	    float: right;
+    top: 22px;
+    position: absolute;
+    right: 20px;
+} 
